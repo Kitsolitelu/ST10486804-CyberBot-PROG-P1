@@ -1,0 +1,14 @@
+## Visual Studio Build Results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+## Visual Studio Cache & User Files
+.vs/
+*.user
+*.suo
+*.userosscache
+
+## Assembly Info (Fixes your build error)
+Properties/AssemblyInfo.cs
