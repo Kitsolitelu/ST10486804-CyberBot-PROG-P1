@@ -11,9 +11,7 @@ using System.Threading.Tasks;
         public static void PlayAudio()
         {
             try
-            {
-
-                
+            { 
                 string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "voice_audio.wav");
 
                 
