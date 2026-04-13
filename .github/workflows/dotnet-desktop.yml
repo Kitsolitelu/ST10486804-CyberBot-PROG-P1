@@ -18,7 +18,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore
-      run: dotnet restore
+      run: dotnet restore ./CyberBot_PROG_Prac1/CyberBot_PROG_Prac1.csproj
 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ./CyberBot_PROG_Prac1/CyberBot_PROG_Prac1.csproj --no-restore
