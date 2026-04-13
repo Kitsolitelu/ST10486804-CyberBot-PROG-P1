@@ -1,0 +1,15 @@
+name: Build ST10486804-CyberBot-PROG-P1
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.x'
+      - name: Build
+        run: dotnet build
